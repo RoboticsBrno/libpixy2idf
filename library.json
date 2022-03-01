@@ -1,0 +1,22 @@
+{
+    "name": "libpixy2idf",
+    "version": "0.0.1",
+    "description": "A library for interfacing with Pixy2 camera",
+    "keywords": "pixy2, esp32, idf, camera",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RoboticsBrno/libpixy2idf.git"
+    },
+    "authors": [
+        {
+            "name": "Vojtěch Boček",
+            "email": "vbocek@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "frameworks": [
+        "espidf",
+        "arduino"
+    ],
+    "platforms": "espressif32"
+}
