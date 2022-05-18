@@ -25,7 +25,7 @@ public:
             ESP_LOGE("PixySpan", "attempted to get idx %d, but only have %d items.", idx, m_size);
             abort();
         }
-        return m_data[idx];
+        return m_data + idx;
     }
 
     const T *begin() const { return m_data; }
