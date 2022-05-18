@@ -13,7 +13,7 @@ using namespace pixy2;
 
 extern "C" void app_main_spi()
 {
- /*   uart_config_t uart_config = {
+    uart_config_t uart_config = {
         .baud_rate = 115200,
         .data_bits = UART_DATA_8_BITS,
         .parity = UART_PARITY_DISABLE,
@@ -22,7 +22,7 @@ extern "C" void app_main_spi()
     };
     ESP_ERROR_CHECK(uart_param_config(UART_NUM_0, &uart_config));
     ESP_ERROR_CHECK(uart_set_pin(UART_NUM_0, 1, 3, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE));
-    ESP_ERROR_CHECK(uart_driver_install(UART_NUM_0, 256, 256, 0, NULL, 0));*/
+    ESP_ERROR_CHECK(uart_driver_install(UART_NUM_0, 256, 256, 0, NULL, 0));
 
 
     const spi_bus_config_t busCfg = {
